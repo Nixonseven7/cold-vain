@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TTtyATPWBXk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nixon.berglindstran\\Desktop\\skol code\\VinterProjekt_2026_2027\\Vinterprojekt2026\\Vinterprojekt2026.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nixon.berglindstran\\.nuget\\packages\\raylib-cs\\8.1.0\\raylib-cs.8.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
