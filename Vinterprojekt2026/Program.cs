@@ -2,14 +2,14 @@
 using Raylib_cs;
 using System.Numerics;
 
+// start of the game
 
 Raylib.InitWindow(960, 540, "Cold Vain");
 Raylib.SetTargetFPS(60);
 while (!Raylib.WindowShouldClose())
 {
-    BeginDraw();
+    Drawing();
     QL();
-    Raylib.EndDrawing();
     // Console.WriteLine($"{Raylib.IsCursorHidden()}");
 
 }
@@ -19,11 +19,15 @@ Raylib.CloseWindow();
 
 
 
+//metoder
 
-void BeginDraw()
+void Drawing()
 {
+
+    // ritar
     Raylib.BeginDrawing();
     Raylib.ClearBackground(Color.DarkGray);
+    Raylib.EndDrawing();
 }
 
 

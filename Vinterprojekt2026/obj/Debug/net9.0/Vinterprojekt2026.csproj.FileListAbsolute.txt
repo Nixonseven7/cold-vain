@@ -21,3 +21,4 @@ C:\Users\nixon.berglindstran\Desktop\skol code\VinterProjekt_2026_2027\Vinterpro
 C:\Users\nixon.berglindstran\Desktop\skol code\VinterProjekt_2026_2027\Vinterprojekt2026\obj\Debug\net9.0\Vinterprojekt2026.pdb
 C:\Users\nixon.berglindstran\Desktop\skol code\VinterProjekt_2026_2027\Vinterprojekt2026\obj\Debug\net9.0\Vinterprojekt2026.genruntimeconfig.cache
 C:\Users\nixon.berglindstran\Desktop\skol code\VinterProjekt_2026_2027\Vinterprojekt2026\obj\Debug\net9.0\ref\Vinterprojekt2026.dll
+C:\Users\nixon.berglindstran\Desktop\skol code\VinterProjekt_2026_2027\Vinterprojekt2026\obj\Debug\net9.0\Vinterprojekt2026.sourcelink.json
