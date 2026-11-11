@@ -1,23 +1,35 @@
 ﻿using System.Net;
 using Raylib_cs;
 using System.Numerics;
+using System.Data;
+
+
+Player player = new();
+Rectangle Dude = new Rectangle(480,270,25,25);
+bool isColliding;
 
 // start of the game
+Main();
 
+
+
+
+
+void Main()
+{
+    
 Raylib.InitWindow(960, 540, "Cold Vain");
 Raylib.SetTargetFPS(60);
 while (!Raylib.WindowShouldClose())
 {
     Drawing();
+Raylib.DrawRectangleRec(Dude, Color.Green);
     QL();
     // Console.WriteLine($"{Raylib.IsCursorHidden()}");
 
 }
 Raylib.CloseWindow();
-
-
-
-
+}
 
 //metoder
 
@@ -55,9 +67,10 @@ void QL()
         Raylib.ToggleFullscreen();
     }
 
-    // Closing window
-    if (Raylib.IsKeyPressed(KeyboardKey.Escape))
-    {
-        Raylib.CloseWindow();
-    }
+    // Closing window/game
+    Raylib.SetExitKey(KeyboardKey.Escape);
+    // if (Raylib.IsKeyPressed(KeyboardKey.Escape))
+    // {
+    //     Raylib.CloseWindow();
+    // }
 }
