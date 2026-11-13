@@ -4,9 +4,10 @@ using System.Numerics;
 using System.Data;
 
 
-Player player = new();
-Rectangle Dude = new Rectangle(480,270,25,25);
 bool isColliding;
+
+Player player = new();
+
 
 // start of the game
 Main();
@@ -17,18 +18,18 @@ Main();
 
 void Main()
 {
-    
-Raylib.InitWindow(960, 540, "Cold Vain");
-Raylib.SetTargetFPS(60);
-while (!Raylib.WindowShouldClose())
-{
-    Drawing();
-Raylib.DrawRectangleRec(Dude, Color.Green);
-    QL();
-    // Console.WriteLine($"{Raylib.IsCursorHidden()}");
 
-}
-Raylib.CloseWindow();
+    Raylib.InitWindow(960, 540, "Cold Vain");
+    Raylib.SetTargetFPS(60);
+    while (!Raylib.WindowShouldClose())
+    {
+        Drawing();
+        QL();
+        player.Update();
+        // Console.WriteLine($"{Raylib.IsCursorHidden()}");
+
+    }
+    Raylib.CloseWindow();
 }
 
 //metoder
